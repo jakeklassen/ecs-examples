@@ -17,7 +17,7 @@
     "typescript": "^3.7.3"
   },
   "dependencies": {
-    "@jakeklassen/ecs": "^2.3.4",
+    "@jakeklassen/ecs": "^2.3.5",
     "mainloop.js": "^1.0.4"
   }
 }
