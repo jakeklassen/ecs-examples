@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel *.html",
     "prebuild": "rm -rf docs",
-    "build": "parcel build -d docs *.html",
+    "build": "parcel build -d docs --public-url=/ecs-examples/ *.html",
     "postbuild": "touch docs/.nojekyll"
   },
   "devDependencies": {
