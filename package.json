@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel *.html",
-    "build": "parcel build *.html"
+    "build": "parcel build -d docs *.html"
   },
   "devDependencies": {
     "@types/mainloop.js": "^1.0.5",
