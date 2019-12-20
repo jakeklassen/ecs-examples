@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel *.html",
-    "build": "parcel build -d docs *.html"
+    "prebuild": "rm -rf docs",
+    "build": "parcel build -d docs *.html",
+    "postbuild": "touch docs/.nojekyll"
   },
   "devDependencies": {
     "@types/mainloop.js": "^1.0.5",
