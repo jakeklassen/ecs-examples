@@ -1,0 +1,21 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "devDependencies": {
+    "@types/mainloop.js": "^1.0.5",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@jakeklassen/ecs": "^2.3.4",
+    "mainloop.js": "^1.0.4"
+  }
+}
