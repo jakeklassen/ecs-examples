@@ -77,9 +77,9 @@ class RenderingSystem extends System {
       Color,
       Transform,
     )) {
-      const { color } = components.get(Color) as Color;
-      const { width, height } = components.get(Rectangle) as Rectangle;
-      const transform = components.get(Transform) as Transform;
+      const { color } = components.get<Color>(Color)!;
+      const { width, height } = components.get<Rectangle>(Rectangle)!;
+      const transform = components.get<Transform>(Transform)!;
 
       this.context.fillStyle = color;
       this.context.fillRect(
