@@ -1,7 +1,7 @@
 // tslint:disable: max-classes-per-file
 
 import { System, World } from '@jakeklassen/ecs';
-import * as mainloop from 'mainloop.js';
+import mainloop from 'mainloop.js';
 import { Color, Rectangle, Transform, Velocity } from '../shared/components';
 import { Vector2 } from '../shared/vector2';
 import { BallTag } from './components/ball-tag';
@@ -77,9 +77,9 @@ class RenderingSystem extends System {
       Color,
       Transform,
     )) {
-      const { color } = components.get<Color>(Color)!;
-      const { width, height } = components.get<Rectangle>(Rectangle)!;
-      const transform = components.get<Transform>(Transform)!;
+      const { color } = components.get<Color>(Color);
+      const { width, height } = components.get<Rectangle>(Rectangle);
+      const transform = components.get<Transform>(Transform);
 
       this.context.fillStyle = color;
       this.context.fillRect(

@@ -702,9 +702,9 @@
   integrity sha512-FmuxfCuolpLl0AnQ2NHSzoUKWEJDFl63qXjzdoWBVyFCXzMGm1spBzk7LeHNoVCiWCF7mRVms9e6jEV9+MoPbg==
 
 "@jakeklassen/ecs@^2.3.5":
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/@jakeklassen/ecs/-/ecs-2.3.5.tgz#555402542e5521a7385f50d9b8458088af4bd2dc"
-  integrity sha512-cfRGrB5fZHWoM6JyOClxmwEizXTXBpD8LoreSnhNl3v+ANrouGmtVpC5NRFMaXE0FZMDWDj3tBOHKKRTGOcAng==
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/@jakeklassen/ecs/-/ecs-2.3.6.tgz#2f031c109b2665e7bb05a259aba442bb15229670"
+  integrity sha512-eRwduNof9KGGqNhu/ITsaXsBMZ0H2WWOXDsWZZUIAOzkgDQPIi0rAg93ZcZ+Vrq89Xx4sRo47Pi04XW3QPJ+Aw==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
